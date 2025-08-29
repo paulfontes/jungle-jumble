@@ -15,8 +15,9 @@ export class GameController {
         console.log(formData);
         if (formData.gameTextArea == AppState.activeJumble.body) {
             console.log('correct');
-
+            window.alert('You typed the phrase correctly! ')
         }
     }
+
 }
 
